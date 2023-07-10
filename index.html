@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>    
+    <div class="side-bar">
+       <img src="./background.avif" alt="background image">
+       <div class="logo-and-title">
+         <img src="./odin-lined.png" alt="odin logo" class="logo">
+         <p class="title">
+            ODIN
+         </p>
+       </div>
+    </div>
+
+    <div class="main-content">
+        <div class="form-title">
+            <p>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now
+            </p>
+            <br>
+            <p>You know you want to.</p>
+        </div>
+         <!-- <br><br>
+       -->
+
+        <form action="#">
+          <p>Let's do this!</p>
+          <div class="form-grp-row">
+              <div class="form-grp">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Donty....">
+              </div>
+              <div class="form-grp">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Sibanda....">
+              </div>
+          </div>
+
+          <div class="form-grp-row">
+              <div class="form-grp">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com">
+              </div>
+              <div class="form-grp">
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="tel" id="phone-number" name="phone-number" placeholder="+263 787645731">
+              </div>
+          </div>
+
+          <div class="form-grp-row">
+              <div class="form-grp">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password">
+              </div>
+              <div class="form-grp">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm-password" name="confirm-password" value="donty">
+                
+              </div>
+          </div>
+        </form>
+
+        <button>Create Account</button>
+
+        <p>Already have an account? <span class="login-text">Log in</span></p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
